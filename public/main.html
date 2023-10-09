@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="library/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <script src="library/bootstrap.js"></script>
+  <script src="library/jquery-3.7.0.min.js"></script>
+  <script src="animation.js"></script>
+  <script src="Databese.js"></script>
+</head>
+
+<body>
+
+  <!--ナビバー-->
+  <div id="top"></div>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="main.html">東京XXX大学</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#univ-explain">東京XXX大学ってどんなところ？</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#event-day">イベント開催日程</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#event-content">実施内容</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">コンタクト</a>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-outline-primary me-auto document-request-open">資料請求</button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+<!--メイン画面-->
+  <div class="mt-5 text-white main-visual">
+    <div class="row">
+      <div class="col-md-12 col-lg-8">
+        <div class="sales-copy">
+          <p class="sales-copy-text1 scroll5 wide-in1"><span class="sales-copy-text-color1">この夏、</span></p>
+          <p class="sales-copy-text2 scroll5 wide-in2"><span class="sales-copy-text-color2">オープンキャンパスへ</span></p>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4">
+        <div class="sales-copy">
+          <p class="sales-copy-text3 scroll6 fade-in5">Tokyo<br>XXX<br>University</p>
+          <p class="sales-copy-text4 scroll6 fade-in6">当大学では、未来を担う幅広い人材を育成します。<br>
+            当大学では、未来を担う幅広い人材を育成します。当大学では、未来を担う幅広い人材を育成します。当大学では、未来を担う幅広い人材を育成します。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="univ-explain"></div>
+  <img class="partition scroll1" src="./img/Stripe.png" alt="partition">
+
+  <!--大学概要-->
+  <div class="title scroll1">東京XXX大学ってどんなところ？</div>
+
+  <div class="container pt-4">
+    <div class="row explain-center">
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card mb-5 border-0 text-center  scroll1">
+          <div class="card-body">
+          <img class="card-img-top card-size" src="./img/お団子あたまのキャリアウーマン.png" alt="Card image cap">
+            <h5 class="card-title text-primary">個人に寄り添ったサポート</h5>
+            <p class="card-text1">生徒1につき大学の職員数がn.m人と、生徒一人一人に目を向け手厚いサポートをおこなっております。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card mb-5 border-0 text-center  scroll2">
+          <div class="card-body">
+            <img class="card-img-top card-size" src="./img/地球のフリーアイコンその4.png" alt="Card image cap">
+            <h5 class="card-title text-primary">グローバル教育</h5>
+            <p class="card-text1">当大学では、オーストラリアのYYY大学と提携し、毎年夏休み中に留学プログラムを開催する等、充実したグローバル教育を実施しております。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card mb-5 border-0 text-center  scroll3">
+          <div class="card-body">
+            <img class="card-img-top card-size" src="./img/円グラフのアイコン素材.png" alt="Card image cap">
+            <h5 class="card-title text-primary">高い満足度</h5>
+            <p class="card-text1">東京XXX大学に所属する生徒n人にアンケートを取ったところ、「現在の大学の教育に満足している」と答えた人が99％以上でした。</p>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <div id="event-day"></div>
+  <img class="partition scroll1" src="./img/Stripe.png" alt="partition">
+
+  <!--イベント日程-->
+  <div class="title scroll1">イベント開催日程</div>
+
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-6 col-md-6 col-lg-3">
+        <div class="card  border-0 text-center card2  scroll1">
+          <div class="card-header saturday">8/19 (土)</div>
+          <div class="card-body day-card">
+            <p class="card-text2">13:00～  大学案内<br>14:00～  先輩の講演<br>15:00～  個別相談会</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3">
+        <div class="card border-0 text-center card2  scroll2">
+          <div class="card-header sunday">8/20 (日)</div>
+          <div class="card-body day-card">
+            <p class="card-text2">13:00～  大学案内<br>14:00～  先輩の講演<br>15:00～  個別相談会</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3">
+        <div class="card border-0 text-center card2  scroll3">
+          <div class="card-header saturday">8/26 (土)</div>
+          <div class="card-body day-card">
+            <p class="card-text2">13:00～  大学案内<br>14:00～  先輩の講演<br>15:00～  個別相談会</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3">
+        <div class="card border-0 text-center card2  scroll4">
+          <div class="card-header sunday">8/27 (日)</div>
+          <div class="card-body day-card">
+            <p class="card-text2">13:00～  大学案内<br>14:00～  先輩の講演<br>15:00～  個別相談会</p>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  
+  <div id="event-content"></div>
+  <img class="partition scroll1" src="./img/Stripe.png" alt="partition">
+
+  <!--イベント実施内容-->
+  <div class="title scroll1">実施内容</div>
+  <div class="space"></div>
+  <div class="event-contact">
+    <div class="photo-center">
+      <img class="photo-over" src="./img/photo1.png" alt="photo">
+      <p class="event-text scroll1">東京XXX大学にはnつの校舎が存在しており、今回は大学に在学する生徒のガイドのもと、45分間かけて第m校舎と第m+1校舎を見学します。普段は入れない教室も今回は特別に開放します。
+        <br>生徒が普段どのような場所で授業を受けているかを、身近に感じることができるでしょう。
+      </p>
+      <div class="event-title-back scroll1"></div>
+      <p class="event-title scroll1">大学案内</p>
+    </div>
+    <div class="photo-center">
+      <img class="photo-over" src="./img/photo2.png" alt="photo">
+      <p class="event-text scroll1">当校在校の生徒より、授業風景やサークル活動、就職活動のサポートなどについて、体験談を交えながら直接聞くことができます。
+        <br>時間の最後には質問コーナーを設けますので、気になるあれそれを聞くことのできる、またとないチャンスです。
+      </p>
+      <div class="event-title-back scroll1"></div>
+      <p class="event-title scroll1">先輩の講演</p>
+    </div>
+    <div class="photo-center">
+      <img class="photo-over" src="./img/photo3.png" alt="photo">
+      <p class="event-text scroll1">受験についての不安や、大学についてさらに詳しく説明を聞きたい、というときは是非個別相談会にご参加ください。
+      </p>
+      <div class="event-title-back scroll1"></div>
+      <p class="event-title scroll1">個別相談会</p>
+    </div>
+    </div>
+  <div class="space"></div>
+
+  <div id="contact"></div>
+  <img class="partition scroll1" src="./img/Stripe.png" alt="partition">
+
+  <!--コンタクト-->
+  <div class="title scroll1">コンタクト</div>
+  
+  <div class="row btn-center">
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="contact-button-area  scroll1">
+        <a class="btn btn-outline-primary contact-button" href="#top">ホームページ</a>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="contact-button-area  scroll2">
+        <a  class="btn btn-outline-primary contact-button document-request-open">資料請求</a>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="contact-button-area  scroll3">
+        <a class="btn btn-outline-primary contact-button inquiry-open">お問い合わせ</a>
+      </div>
+    </div> 
+  </div>
+
+  <hr class="featurette-divider buttom">
+
+  <footer class="container">
+    <p class="p-1 float-end"><a href="#top">トップに戻る</a></p>
+    <p class="p-1">&copy; Tokyo XXX University, All rights reserved.</p>
+  </footer>
+
+</body>
+
+<div class="document-request">
+	<div class="modal-body">
+		<div class="modal-close document-request-close">×</div>
+		<div class="modal-content">
+			<div class="inquiry-title">資料請求</div>
+      <hr class="featurette-divider">
+      <form action="/doqument-request"  method="POST">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div><label for="name">お名前</label></div>
+              <input type="text" name="last_name" class="form-normal" placeholder="姓">
+              <input type="text" name="first_name" class="form-normal" placeholder="名">
+            </div>
+            <div class="col-12 col-md-6">
+              <div><label for="name-kana">フリガナ</label></div>
+              <input type="text" name="last_name_kana" class="form-normal" placeholder="セイ">
+              <input type="text" name="first_name_kana" class="form-normal" placeholder="メイ">
+            </div>
+          </div>
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-12">
+            <label for="post-code">郵便番号</label><br>
+            <input type="text" name="post_code1" class="form-short">
+            <span>-</span>
+            <input type="text" name="post_code2" class="form-short">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="address">住所</label><br>
+            <input type="text" name="address1" class="form-area" placeholder="〇〇県××市△△町　〇-〇-〇">
+            <input type="text" name="address2" class="form-area" placeholder="ハイツ〇〇　□□号室">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-12">
+            <label for="email">メールアドレス</label><br>
+            <input type="mail" name="email" class="form-area">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row btn-center">
+          <div class="col-12 col-sm-6">
+            <a class="cancel-btn btn btn-outline-primary document-request-close">キャンセル</a>
+          </div>
+          <div class="col-12 col-sm-6">
+            <input type="submit" value="送信" name="送信" class="send-btn btn btn-primary send-document document-request-close">
+          </div>
+        </div>
+      </form>
+		</div>
+	</div>
+</div>
+
+<div class="inquiry">
+	<div class="modal-body">
+		<div class="modal-close inquiry-close">×</div>
+		<div class="modal-content">
+      <div class="inquiry-title">お問い合わせ</div>
+      <hr class="featurette-divider">
+      <form action="/inquiry"  method="POST">
+        <div class="row">
+          <div class="col-12">
+            <label for="email">メールアドレス</label><br>
+            <input type="texy" name="email" class="form-area">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-12">
+            <label for="inquiry_type">お問い合わせの種類</label>
+            <div class="row inquiry-type-list">
+              <div class="col-6 col-sm-3">
+                <input type="radio" name="inquiry_type" value="0">ご相談
+              </div>
+              <div class="col-6 col-sm-3">
+                <input type="radio" name="inquiry_type" value="1">ご意見
+              </div>
+              <div class="col-6 col-sm-3">
+                <input type="radio" name="inquiry_type" value="2">その他
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <label for="mail_title">件名</label><br>
+              <input type="text" name="mail_title" class="form-area">
+            </div>
+            <hr class="featurette-divider">
+            <label for="message">内容</label><br>
+            <textarea name="message" class="form-area"></textarea>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row btn-center">
+          <div class="col-12 col-sm-6">
+            <a class="cancel-btn btn btn-outline-primary  inquiry-close">キャンセル</a>
+          </div>
+          <div class="col-12 col-sm-6">
+            <input type="submit" value="送信" name="送信" class="send-btn btn btn-primary send-inquiry inquiry-close">
+          </div>
+        </div>
+      </form>
+		</div>
+	</div>
+</div>
+
+</html>

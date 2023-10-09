@@ -1,0 +1,433 @@
+
+/*ナビバーの設定*/
+.navbar {/*背景色*/
+    background-color: rgba(255, 255, 255, 1);
+}
+.navbar-toggler-icon{/*ハンバーガーメニューアイコン*/
+  font-size: 30px;
+  color: rgb(0, 13, 116);;
+}
+
+.navbar .navbar-nav .nav-link {/*メニュー*/
+    color: rgba(44, 150, 255, 1);
+}
+/*ホバー*/
+.navbar .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 223, 44,1);
+}
+
+.navbar .navbar-brand{/*大学名*/
+  font-size: 30px;
+  color: rgba(44, 150, 255, 1);
+  font-family: 'YuGothic';
+}
+.navbar .collapse{
+  color: rgba(44, 150, 255, 1);
+}
+
+/*メイン画像*/
+  .main-visual {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)30%),
+      linear-gradient(-30deg, rgba(255, 223, 44, 0.8), rgba(44, 150, 255, 0.8))70%, url(./img/23582834_l.png);
+    background-blend-mode: screen,normal;
+    background-size: cover; 
+    padding-bottom: 5rem;
+    /* 参考URL：
+    https://developer.mozilla.org/ja/docs/Web/CSS/clip-path */
+  }
+
+  /*キャッチコピー*/
+  .sales-copy-text1{
+    color: rgb(44, 150, 255);
+    text-shadow: 4px 3px 0 rgb(255, 255, 255);
+    font-size: calc(3vw + 20px);
+    font-family: 'YuGothic';
+    font-weight: bold;
+    text-align: left;
+    rotate: -10deg;
+    margin-left: 4vw;
+    padding-top: 23vw;
+    padding-bottom: 1vw;
+  }
+  .sales-copy-text2{
+    color: rgb(44, 150, 255);
+    text-shadow: 4px 3px 0 rgb(255, 255, 255);
+    font-size: calc(3vw + 20px);
+    font-family: 'YuGothic';
+    font-weight: bold;
+    text-align: left;
+    rotate: -10deg;
+    margin-left: 4vw;
+    padding-top: 1vw;
+    padding-bottom: 10vw;
+  }
+  .sales-copy-text-color1{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 0px;
+    padding-left: 20px;
+    background-color: rgba(255, 223, 44, 1);
+  }
+  .sales-copy-text-color2{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgba(255, 223, 44, 1);
+  }
+
+  /*大学名と簡単な説明*/
+  .sales-copy-text3{
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 0 rgb(44, 150, 255);
+    font-size: calc(2vw + 30px);
+    font-family: 'YuGothic';
+    font-weight: bold;
+    text-align: right;
+    margin: 3vw;
+    padding-top: 2vw;
+  }
+  .sales-copy-text4{
+    color: rgb(255, 255, 255);
+    font-size: calc(0vw + 17px);
+    font-family: 'YuGothic';
+    text-align: left;
+    margin: 4vw;
+    padding-bottom: 80px;
+    padding-left: calc(200px - 15vw);
+  }
+
+  /*章題*/
+  .title {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title::before,
+  .title::after{/*左右の線*/
+    content: "";
+    width:80px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-top: 2px solid rgba(255, 223, 44, 1);
+  }
+
+  /*大学の特色*/
+  .card-size{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    text-shadow: 4px 3px 0 rgba(255, 223, 44, 1);
+    margin-bottom: 30px;
+  }
+  .explain-center{
+    width: 80%;
+  }
+
+  .card-title{
+    margin-bottom: 20px;
+  }
+
+  /*日程*/
+  .card-header{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: 'YuGothic';
+    font-weight: bold;
+  }
+  .saturday{
+    background-color: rgb(121, 119, 255);
+  }
+  .sunday{
+    background-color: rgb(255, 113, 78);
+  }
+  .day-card{
+    background-color: rgb(248, 248, 248);
+  }
+  .card-text2{
+    text-align: left;
+  }
+  .card2{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  /*イベント内容*/
+  .event-content{
+    position: relative;
+  }
+  .photo-over{
+    width: 100vw;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    opacity: 0.7;
+  }
+  .photo-center{
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .event-title{
+    color: transparent;
+    -webkit-text-stroke: 0.2vw rgb(255, 255, 255);
+    text-shadow: 4px 3px 0 rgb(44, 150, 255);
+    position: absolute;
+    top: 7vw;
+    left: 10vw;
+    font-size: 7vw;
+  }
+  .event-title-back{
+    width: 50vw;
+	  height: 5vw;
+    background: rgb(44, 150, 255);
+    position: absolute;
+    top: 12.5vw;
+    left: 0;
+  }
+  .event-text{
+    color: rgb(0, 0, 0);
+    font-family: 'YuGothic';
+    position: absolute;
+    bottom: calc(18vw - 70px);
+    left: calc(40vw - 50px);
+    right: 8vw;
+    font-size: calc(1.2vw + 7px);
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.8);
+    padding: 2vw;
+  }
+
+  /*スペース挿入用*/
+  .space{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  /*コンタクト*/
+  .btn-center{
+    width: 65%;
+    text-align: center;
+  }
+  .contact-button-area{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .contact-button{
+    font-size: 20px;
+  }
+  .row{
+    margin:0 auto;
+  }
+
+/*章ごとの区切り*/
+  .partition {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    opacity: 0.8;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /*フッターとの区切り*/
+  .featurette-divider.buttom{
+    margin-top: 100px;
+  }
+
+  /*アニメーション設定(番号が大きくなるほど待機時間が大きい)*/
+  .scroll1{
+    opacity: 0;
+
+  }
+  .fade-in1 {
+    animation:fadein1 1.5s ease-in-out normal forwards;
+  }
+  .scroll2{
+    opacity: 0;
+  }
+  .fade-in2 {
+    animation:fadein1 1.5s ease-in-out 0.2s normal forwards;
+  }
+  .scroll3{
+    opacity: 0;
+
+  }
+  .fade-in3 {
+    animation:fadein1 1.5s ease-in-out 0.4s normal forwards;
+  }
+  .scroll4{
+    opacity: 0;
+
+  }
+  .scroll5{
+    width: 0;
+
+  }
+  .scroll6{
+    opacity: 0;
+
+  }
+  .fade-in4 {
+    animation:fadein1 1.5s ease-in-out 0.6s normal forwards;
+  }
+  .fade-in5 {
+    animation:fadein1 1.5s ease-in-out 1s normal forwards;
+  }
+  .fade-in6 {
+    animation:fadein1 1.5s ease-in-out 1.4s normal forwards;
+  }
+  .wide-in1{
+    white-space: nowrap;
+    overflow: hidden;
+    animation:widein1 1s ease-in-out normal forwards;
+  }
+  .wide-in2{
+    white-space: nowrap;
+    overflow: hidden;
+    animation:widein1 1s ease-in-out 0.5s normal forwards;
+  }
+
+  
+    
+    @keyframes fadein1 {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+        transition-duration: 1s;
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0px);
+        transition-duration: 1s;
+      }
+    }
+
+    @keyframes widein1 {
+      0% {
+        width: 0;
+        transform: translateY(calc(4vw + 15px));
+        transition-duration: 1s;
+      }
+      100% {
+        width: 100%;
+        transform: translateY(0px);
+        transition-duration: 1s;
+      }
+    }
+
+
+
+/*モーダルウィンドウの基本設定*/
+    .modal-body{
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      width: 75%;
+    }
+    .modal-close{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: -20px;
+      right: -20px;
+      width: 40px;
+      height: 40px;
+      font-size: 40px;
+      color: #fff;
+      cursor: pointer;
+    }
+    .modal-content{
+      background: #fff;
+      text-align: left;
+      padding: 30px;
+    }
+    .document-request{
+      position: fixed;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      background: rgba(0,0,0,50%);
+      padding: 40px 20px;
+      overflow: auto;
+      opacity: 0;
+      visibility: hidden;
+      transition: .3s;
+        box-sizing: border-box;
+    }
+    .document-request:before{
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+    .document-request.active{
+      opacity: 1;
+      visibility: visible;
+    }
+
+
+    /*モーダルウィンドウ内コンテンツ*/
+    .inquiry{
+      position: fixed;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      background: rgba(0,0,0,50%);
+      padding: 40px 20px;
+      overflow: auto;
+      opacity: 0;
+      visibility: hidden;
+      transition: .3s;
+        box-sizing: border-box;
+    }
+    .inquiry:before{
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+    .inquiry.active{
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .inquiry-title{
+      font-size: calc(1.5vw + 10px);
+    }
+    label{
+     margin: 10px; 
+    }
+    .inquiry-type-list{
+      width: 90%;
+      text-align: left;
+    }
+    .form-short{
+      width: 100px;
+    }
+    .form-normal{
+      width:150px;
+    }
+    .form-area{
+      width: 100%;
+    }
+    
+    /*モーダルウィンドウ下部のボタン*/
+    .cancel-btn{
+      font-size: calc(1vw + 10px);
+      width: calc(3vw + 100px);
+      margin: 10px;
+    }
+    .send-btn{
+      font-size: calc(1vw + 10px);
+      width: calc(3vw + 100px);
+      margin: 10px;
+    }
